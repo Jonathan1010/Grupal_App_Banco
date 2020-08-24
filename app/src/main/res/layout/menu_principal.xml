@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MenuPrincipal">
+
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="371dp"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="592dp"
+        android:src="@drawable/ic_principal" />
+
+    <TextView
+        android:id="@+id/txtprincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-8dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="536dp"
+        android:text="BANCO TEC-LOJA"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="186dp"
+        android:layout_height="118dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="338dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/ic_services" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="183dp"
+        android:layout_height="128dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="494dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/ic_transacciones" />
+
+    <ImageButton
+        android:id="@+id/prestamo"
+        android:layout_width="186dp"
+        android:layout_height="118dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="339dp"
+        android:layout_marginEnd="29dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/ic_calc" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="195dp"
+        android:layout_height="116dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="495dp"
+        android:layout_marginEnd="21dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/ic_login" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginBottom="341dp"
+        android:text="SERVICIOS"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="222dp"
+        android:layout_marginBottom="340dp"
+        android:text="CALCULA TU PRESTAMO"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginBottom="208dp"
+        android:text="TRANSACCIONES"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="264dp"
+        android:layout_marginBottom="202dp"
+        android:text="REGISTRATE"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginBottom="66dp"
+        android:text="CONFIGURACIONES"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="276dp"
+        android:layout_marginBottom="65dp"
+        android:text="ACERCA DE"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="84dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginBottom="101dp"
+        app:srcCompat="@drawable/ic_setings" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="124dp"
+        android:layout_height="104dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="83dp"
+        android:background="#0000BCD4"
+        app:srcCompat="@drawable/ic_acercade" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginBottom="370dp"
+        android:text="SERVICIOS"
+        android:textColor="#000000" />
+
+
+</RelativeLayout>

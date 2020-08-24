@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+    <item
+        android:id="@+id/pagos"
+        android:enabled="true"
+        android:title="@string/pagos"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/cuentas"
+        android:enabled="true"
+        android:title="@string/cuentas_bancarias"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/configuracion"
+        android:enabled="true"
+        android:title="@string/configuracion"
+        android:visible="true" />
+
+
+
+</menu>
